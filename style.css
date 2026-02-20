@@ -1,7 +1,7 @@
 #icon{
 margin: 10px;
 width: 75px;
-height: 70px;
+height: 65px;
 }
 
 #navbar {
@@ -28,3 +28,29 @@ link{
 padding-right: 10px;
 
 }
+
+#noticias{
+
+    display: flex;
+text-align: center;
+justify-content: space-around;
+padding: 6px;
+
+}
+
+.noticia{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(0, 0, 0);
+background-color: rgb(250, 248, 248);
+border: 4px solid rgb(57, 105, 9);
+border-radius: 15px ;
+}
+ .img_noticia{
+
+width: 500px;
+height: 450px;
+border: 4px;
+border-radius: 15px;
+
+ }
