@@ -1,56 +1,68 @@
-#icon{
-margin: 10px;
-width: 75px;
-height: 65px;
+#icon {
+    margin: 10px;
+    width: 75px;
+    height: 65px;
 }
 
 #navbar {
 
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 5px;
-background-color: rgb(57, 105, 9);
-color: white;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(57, 105, 9);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-body{
-margin: 0px;
-padding: 0px;
-background-color: rgb(255, 255, 255);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-link{
-padding-right: 10px;
+link {
+    padding-right: 10px;
 
 }
 
-#noticias{
+#noticias {
 
     display: flex;
-text-align: center;
-justify-content: space-around;
-padding: 6px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 6px;
+    flex-wrap: wrap;
 
 }
 
-.noticia{
+.noticia {
 
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: rgb(0, 0, 0);
-background-color: rgb(250, 248, 248);
-border: 4px solid rgb(57, 105, 9);
-border-radius: 15px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 105, 9);
+    border: 4px solid rgb(57, 105, 9);
+    border-radius: 15px;
 }
- .img_noticia{
 
-width: 500px;
-height: 450px;
-border: 4px;
-border-radius: 15px;
+.img_noticia {
 
- }
+    width: 500px;
+    height: 450px;
+    border: 4px;
+    border-radius: 15px;
+
+}
+
+#verdao {
+
+    right: 0px;
+    bottom: -10px;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+
+}
