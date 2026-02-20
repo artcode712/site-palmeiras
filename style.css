@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: rgb(4, 88, 8);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -65,5 +65,31 @@ link {
     position: fixed;
     width: 150px;
     height: 150px;
+
+}
+
+#jogadores{
+
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+}
+
+.jogador{
+
+text-align: center;
+}
+
+#icon_jogador{
+
+width: 90px;
+
+}
+
+#titulo_escalacao{
+
+text-align: center;
+
+
 
 }
