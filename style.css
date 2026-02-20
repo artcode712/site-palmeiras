@@ -10,8 +10,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: rgb(57, 105, 9);
-    color: white;
+    background-color: rgb(4, 88, 8);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -19,7 +19,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(57, 105, 9);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -50,8 +50,9 @@ link {
 
 .img_noticia {
 
-    width: 500px;
-    height: 450px;
+
+    width: 300px;
+    height: 300px;
     border: 4px;
     border-radius: 15px;
 
